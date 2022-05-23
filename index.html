@@ -1,91 +1,37 @@
 <!DOCTYPE html>
-<html>
- 
-  <script>console.log("Test")
-  </script>
-  <head>
-    
-    <style>
-        h2.a {
-            font-family: "Comic Sans MS";
-        }
-
-        h1.n {
-            
-            font-family : "Comic Sans MS", sans-serif; color:rgb(99, 92, 89);
-        }
-
-
-
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Navbar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
         
         
-       
-        </style>
-    <title>Faul Er DIbbah</title>
-  </head>
-  
-  <body style="background-color:#1b1b1b;">
-    
-
-
-
-
-
-
-
-
-      <style>
-
-
-
-
-
-
-        button {
-          position: fixed;
-          
-          opacity: 1;
-          border: #707070;
-          color: #403a3a;
-          background-color: #292929;
-          font-size: 15px;
-          padding: 10px 10px;
-          letter-spacing: 1px;
-          cursor: pointer
-          
-          
-        }
-        button:hover {
-          
-          color: #363636;
-          background-color: #202020;
-          transition: 0.5s;
-          opacity: 5;
-          
-        }
-
-
-       
-      </style>
-      =
-  
-      <button type="button" name="myButton">Aul Faul jinishes</button>
-    
-
-
-
-
-
-
-    
-    
-    
-
-    <div align="center">
-        
-     
-        <h1 class="n">Faul er Dibba:D</h1>
-    </div>
-
-  </body>
+        <header>
+            <a class="logo" href="/"><img src="images/logo.svg" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="https://www.google.com">TopUp</a></li>
+                    <li><a href="#">Faula Links</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="Online Goods.html">Online Goods</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#">Contact</a>
+            <p class="menu cta">Home</p>
+        </header>
+        <div id="mobile__menu" class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="https://www.google.com">TopUp</a>
+                <a href="Online Goods.html">Online Goods</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="mobile.js"></script>
+    </body>
 </html>

@@ -1,4 +1,4 @@
-const webhookUrl = "<WEBHOOK_URL>";
+const webhookUrl = "https://discordapp.com/api/webhooks/986479906684825640/eQQvf6kkja87PcUM4Mef1kF2fEbL9U1hE4ejA7chkMmhoZCIjcw3j7oxJq-jV6nTxT8N";
 
 		// Check if the referrer is discord.com or a discord.gg link
 		let message, userId;
